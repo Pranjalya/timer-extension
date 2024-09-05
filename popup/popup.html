@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timer Extension</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Timer Extension</h1>
+    <div id="timer">00:00:00.000</div>
+    <div class="controls">
+      <button id="startStop" class="btn btn-primary">Start</button>
+      <button id="reset" class="btn btn-secondary">Reset</button>
+    </div>
+    <div class="persistent-toggle">
+      <label class="switch">
+        <input type="checkbox" id="persistentToggle">
+        <span class="slider round"></span>
+      </label>
+      <span class="toggle-label">Persistent Widget</span>
+    </div>
+  </div>
+  <div class="attribution">
+    <a href="https://www.flaticon.com/free-icons/clock" title="clock icons">Clock icons created by Freepik - Flaticon</a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
